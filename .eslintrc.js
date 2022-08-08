@@ -2,10 +2,11 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    webpack5: true,
   },
   extends: [
-    'plugin:react/recommended',
     'airbnb',
+    'plugin:@next/next/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -28,7 +29,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'max-len': [
       2,
-      250,
+      280,
     ],
     'no-multiple-empty-lines': [
       'error',
